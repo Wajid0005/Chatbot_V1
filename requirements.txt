@@ -12,3 +12,5 @@ pandas
 pandas-gbq
 jinja2
 tabulate
+langchain-groq
+langchain-community
