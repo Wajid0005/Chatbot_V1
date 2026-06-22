@@ -1,40 +1,37 @@
 import os
+import streamlit as st
 from dotenv import load_dotenv
+from langchain_groq import ChatGroq
+from pydantic import BaseModel, Field
+from typing import list
 
-print("Running Qwen File")
 load_dotenv()
 
-# Inject Streamlit secrets into environment variables if running in Streamlit
-try:
-    import streamlit as st
-    # Case-insensitive scan of all secrets to find matching token names
-    for key in st.secrets.keys():
-        upper_key = key.upper()
-        if upper_key in ["HUGGINGFACEHUB_API_TOKEN", "HF_TOKEN", "HUGGINGFACE_API_KEY", "HF_API_KEY"]:
-            token = st.secrets[key]
-            os.environ["HUGGINGFACEHUB_API_TOKEN"] = token
-            os.environ["HF_TOKEN"] = token
-            os.environ["HUGGINGFACE_API_KEY"] = token
-except Exception as e:
-    print(f"Error reading secrets: {e}")
+class ChatResponse(BaseModel):
+    answer: str = Field(desription = "The main answer to the user's question")
+    confidence: int = Field(description = "Confidence score from 0 to 100", ge=0, le=100)
+    key_points: List[str] = Field(description= "List of 2-4 important points", min_item =0, max_item=5)
 
-# Synchronize local/system environment variables (case-insensitive check)
-for env_key in list(os.environ.keys()):
-    upper_key = env_key.upper()
-    if upper_key in ["HUGGINGFACEHUB_API_TOKEN", "HF_TOKEN", "HUGGINGFACE_API_KEY", "HF_API_KEY"]:
-        token = os.environ[env_key]
-        os.environ["HUGGINGFACEHUB_API_TOKEN"] = token
-        os.environ["HF_TOKEN"] = token
-        os.environ["HUGGINGFACE_API_KEY"] = token
+MODELS = {
+    "Llama 3.3 70B (Best)": "llama-3.3-70b-versatile",
+    "Llama 3.1 8B (Very Fast)": "llama-3.1-8b-instant",
+    "Gemma2 9B": "gemma2-9b-it",
+}
 
-from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
+def get_llm(selected_model: str = "llama-3.1-8b-instant"):
+    """Return Groq LLM with structured output"""
 
-api_token = os.environ.get("HF_TOKEN")
+    groq_key = st.secrets.get("GROQ_API_KEY") or os.getenv("GROQ_API_KEY")
 
-llm = HuggingFaceEndpoint(
-    repo_id="Qwen/Qwen2.5-7B-Instruct",
-    task="text-generation",
-    huggingfacehub_api_token=api_token
-)
+    if not groq_key:
+        raise ValueError("❌ GROQ_API_KEY not found! Add it in .env or Streamlit Secrets.")
+    
+    llm = ChatGroq(
+        model = selected_model,
+        temperature= 0.7,
+        api_key = groq_key,
+        max_tokens= 1024,
+    )
 
-model = ChatHuggingFace(llm=llm)
+    structured_llm = llm.with_structured_output(ChatResponse)
+    return structured_llm
