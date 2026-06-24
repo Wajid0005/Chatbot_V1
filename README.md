@@ -10,15 +10,6 @@
 
 <br/><br/>
 
-<!-- Version badges -->
-<a href="https://wajid-chatbot-database.streamlit.app/">
-  <img src="https://img.shields.io/badge/v0-HuggingFace_Baseline-555555?style=for-the-badge&logo=huggingface&logoColor=FFD21E"/>
-</a>
-<img src="https://img.shields.io/badge/v1-Groq_Edition_(YOU_ARE_HERE)-F55027?style=for-the-badge&logo=lightning&logoColor=white"/>
-<img src="https://img.shields.io/badge/v2-Memory_%2B_Database-1a1a2e?style=for-the-badge&logo=sqlite&logoColor=white"/>
-
-<br/><br/>
-
 <!-- Tech Stack -->
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Groq_LPU-F55027?style=for-the-badge&logoColor=white"/>
@@ -28,7 +19,7 @@
 
 <br/><br/>
 
-<a href="https://wajid-chatbot-v1.streamlit.app/">
+<a href="https://reeno-chatbot-v1.streamlit.app/">
   <img src="https://img.shields.io/badge/%E2%9A%A1_LAUNCH_v1_LIVE-F55027?style=for-the-badge&logoColor=white&labelColor=0d0d0d" height="42"/>
 </a>
 &nbsp;
@@ -221,7 +212,7 @@ streamlit run streamlit_app.py
 | Version | Status | What it adds |
 |:--------|:-------|:-------------|
 | **v0** — HuggingFace Baseline | ✅ [Live](https://wajid-chatbot-database.streamlit.app/) | Qwen 2.5 7B, terminal only, raw output |
-| **v1** — Groq Speed Engine | 🟢 **You are here** | Groq LPU, personas, structured output, Streamlit UI |
+| **v1** — Groq Speed Engine | 🟢 [**Live — You are here**](https://reeno-chatbot-v1.streamlit.app/) | Groq LPU, personas, structured output, Streamlit UI |
 | **v2** — Memory + Database | 🔜 Coming Soon | Conversation memory, SQLite logging, analytics dashboard |
 | **v3** — RAG | 🔮 Planned | Upload PDFs, ask questions about your documents |
 
