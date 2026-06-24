@@ -1,104 +1,183 @@
 <div align="center">
 
-<!-- Animated Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Wajid's%20REENO%20Chat%20Bot&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI-Powered%20Conversational%20Engine%20%7C%20Token%20Analytics%20Dashboard&descSize=14&descAlignY=55&descAlign=50" width="100%"/>
-
-<!-- Typing Animation -->
-<a href="https://wajid-chatbot-database.streamlit.app/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FF4B4B&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=%F0%9F%94%B4+LIVE+NOW+%E2%80%94+Click+to+Try+the+App!;Powered+by+Qwen+2.5+%7C+LangChain+%7C+Streamlit" alt="Typing SVG" />
-</a>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:1a0a00,100:F55027&height=200&section=header&text=REENO%20Chat%20Bot%20v1&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Groq%20Speed%20Engine%20%7C%20Persona%20Intelligence%20%7C%20Structured%20Output&descSize=15&descAlignY=60&descAlign=50" width="100%"/>
 
 <br/>
 
-<!-- Tech Stack Badges - Animated -->
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-FFD21E?style=for-the-badge&logoColor=black"/>
-<img src="https://img.shields.io/badge/Qwen_2.5_7B-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white"/>
-<img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white"/>
-<img src="https://img.shields.io/badge/LangGraph-FF6F00?style=for-the-badge&logo=graphql&logoColor=white"/>
-
-<br/><br/>
-
-<!-- Live Demo Button -->
-<a href="https://wajid-chatbot-database.streamlit.app/">
-  <img src="https://img.shields.io/badge/%F0%9F%9A%80_LAUNCH_LIVE_APP-FF4B4B?style=for-the-badge&logoColor=white&labelColor=1a1a2e" height="40"/>
+<a href="https://wajid-chatbot-v1.streamlit.app/">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1000&color=F55027&center=true&vCenter=true&multiline=false&repeat=true&width=600&height=50&lines=%F0%9F%9F%A0+LIVE+NOW+%E2%80%94+Try+REENO+v1+%E2%86%92;Groq+LPU+%7C+Near-instant+responses+%E2%9A%A1;5+Personas+%7C+3+Models+%7C+Pydantic+Output+%F0%9F%A7%A0" alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
-<!-- Repo Stats -->
+<!-- Version badges -->
+<a href="https://wajid-chatbot-database.streamlit.app/">
+  <img src="https://img.shields.io/badge/v0-HuggingFace_Baseline-555555?style=for-the-badge&logo=huggingface&logoColor=FFD21E"/>
+</a>
+<img src="https://img.shields.io/badge/v1-Groq_Edition_(YOU_ARE_HERE)-F55027?style=for-the-badge&logo=lightning&logoColor=white"/>
+<img src="https://img.shields.io/badge/v2-Memory_%2B_Database-1a1a2e?style=for-the-badge&logo=sqlite&logoColor=white"/>
+
+<br/><br/>
+
+<!-- Tech Stack -->
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Groq_LPU-F55027?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white"/>
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+
+<br/><br/>
+
+<a href="https://wajid-chatbot-v1.streamlit.app/">
+  <img src="https://img.shields.io/badge/%E2%9A%A1_LAUNCH_v1_LIVE-F55027?style=for-the-badge&logoColor=white&labelColor=0d0d0d" height="42"/>
+</a>
+&nbsp;
+<a href="https://wajid-chatbot-database.streamlit.app/">
+  <img src="https://img.shields.io/badge/%F0%9F%94%B4_VIEW_v0_LIVE-555555?style=for-the-badge&logoColor=white&labelColor=0d0d0d" height="42"/>
+</a>
+
+<br/><br/>
+
 <img src="https://img.shields.io/github/stars/Wajid0005/Chatbot-Database?style=social"/>
-<img src="https://img.shields.io/github/forks/Wajid0005/Chatbot-Database?style=social"/>
-<img src="https://img.shields.io/github/last-commit/Wajid0005/Chatbot-Database?color=blue"/>
+<img src="https://img.shields.io/github/last-commit/Wajid0005/Chatbot-Database?color=F55027"/>
 <img src="https://img.shields.io/github/repo-size/Wajid0005/Chatbot-Database?color=green"/>
 
 </div>
 
 ---
 
-## 📖 About This Project
+## ⚡ v0 → v1: What Actually Changed
 
-> _Recently I was learning **LangGraph** from **Nitish Sir** (Owner of **[CampusX](https://www.youtube.com/@campusx-official)**) and made this project._
-> _It was so amazing — I used a deployed LLM model from **Hugging Face** and turned it into a full-fledged Chat Bot with a persistent analytics dashboard!_
+> v0 proved the concept. v1 makes it usable.
 
-This app connects to the **Qwen 2.5 7B Instruct** model hosted on Hugging Face's Inference API, wraps it using **LangChain**, and tracks every interaction in a local **SQLite** database. The entire web frontend and deployment pipeline was built with **Antigravity** (an agentic AI coding assistant).
-
----
-
-## 🌟 Features at a Glance
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <h3>💬 Chat Bot</h3>
-      <p>Real-time conversational AI powered by<br/><b>Qwen 2.5 7B Instruct</b> via LangChain</p>
-      <img src="https://img.shields.io/badge/Status-Live-brightgreen?style=flat-square"/>
-    </td>
-    <td align="center" width="50%">
-      <h3>📊 Analytics Dashboard</h3>
-      <p>Token usage charts, cost tracking,<br/>searchable logs & CSV export</p>
-      <img src="https://img.shields.io/badge/Status-Live-brightgreen?style=flat-square"/>
-    </td>
-  </tr>
-</table>
-
-| Feature | Description |
-|:--------|:------------|
-| 🤖 **LLM Chat** | Interactive chat interface with streamed AI responses |
-| 🔢 **Token Counter** | Tracks input & output tokens using `tiktoken` |
-| 💰 **Cost Estimation** | Estimates API costs per interaction |
-| 💾 **SQLite Logging** | Persists every chat with metadata & timestamps |
-| 📈 **Usage Charts** | Line & area charts for token trends over time |
-| 📥 **CSV Export** | Download your full interaction history anytime |
-| 🗑️ **Clear History** | One-click database cleanup from the UI |
+| | v0 — HuggingFace Baseline | v1 — Groq Speed Engine |
+|:--|:--|:--|
+| **LLM Provider** | HuggingFace Inference API (Qwen 2.5 7B) | Groq LPU (Llama 3.3 70B / Llama 3.1 8B / Gemma2 9B) |
+| **Speed** | 5–30s, often queued or down | ~0.5–2s, consistently instant |
+| **Output Format** | Raw unpredictable text | Pydantic-enforced JSON (answer + confidence + key points) |
+| **UI** | Terminal only | Full Streamlit web interface |
+| **Model Switching** | Hardcoded, touch-the-code | Runtime dropdown, no restarts |
+| **Persona System** | None | 5 audience modes (5-year-old → Scientist) |
+| **System Prompt** | None — raw queries only | Defined personality + per-persona behaviour |
+| **Token Counter** | tiktoken (accurate) | Estimate (chars ÷ 4) — v2 will fix this |
+| **Files needed** | 6 files | 2 files (`model.py` + `streamlit_app.py`) |
 
 ---
 
-## 🧠 Challenges & Journey
+## 🎭 The Persona System — What Makes v1 Different
 
-<details>
-<summary><b>🔧 Phase 1 — Terminal Prototype</b></summary>
-<br/>
-
-The chatbot initially ran as a **CLI script**. I was expecting and debugging raw outputs directly in the terminal. This phase helped me solidify the core LangChain wrapper logic, token counting, and database insertion flow.
+Instead of a dumb question-answer loop, v1 lets you choose **who you're explaining to**. The selected persona injects a behaviour instruction directly into the system prompt before the LLM sees your question.
 
 ```
-$ python app.py
-Ask: What is quantum computing?
-> Quantum computing is a type of computation...
+User selects: 👴 Elder / Senior
+User asks: "What is an LLM?"
+
+System prompt sent to Groq:
+  "You are REENO, a friendly and intelligent AI assistant.
+   AUDIENCE INSTRUCTION: You are talking to an older adult (60+).
+   Be warm, patient, and respectful. Use simple, familiar language.
+   Avoid tech slang or acronyms without explanation.
+   Use relatable analogies from everyday life."
+```
+
+| Persona | Behaviour |
+|:--------|:----------|
+| 🧒 5-Year-Old | Toys, animals, cartoons. Tiny sentences. Zero jargon. |
+| 🧑 Teenager | Casual, light humour, pop culture. Not preachy. |
+| 🧔 Adult | Clear, balanced, practical. Default mode. |
+| 🔬 Scientist / Pro | Technical, dense, domain-specific. No hand-holding. |
+| 👴 Elder / Senior | Warm, patient, no acronyms, everyday analogies. |
+
+---
+
+## 🧠 Structured Output — Why It Matters
+
+v0 returned raw text. You got whatever the model felt like returning — sometimes markdown, sometimes a wall of text, sometimes half-answered.
+
+v1 forces the LLM to return a **Pydantic schema** every single time:
+
+```python
+class ChatResponse(BaseModel):
+    answer: str        # The actual reply
+    confidence: int    # Model's self-rating, 0–100
+    key_points: List[str]  # 2–4 bullet summary
+```
+
+`llm.with_structured_output(ChatResponse)` tells LangChain to enforce this. If the model tries to return free text, it fails and retries. You always get parseable, predictable output — which means you can build UI components around it (the confidence badge, the key points expander) instead of hoping the text looks right.
+
+---
+
+## 🔥 Challenges & Errors I Hit
+
+<details>
+<summary><b>❌ Error 1 — "No secrets found" (st.secrets crash on local)</b></summary>
+<br/>
+
+**What happened:** Had `import streamlit as st` at the top of `model.py`. The moment Python imported the file, Streamlit tried to load `secrets.toml` — which doesn't exist locally. Crashed before `.env` even loaded.
+
+**The fix:** Move `import streamlit as st` inside the `try` block inside `get_llm()`. Load `.env` first via `os.getenv()`, only fall back to `st.secrets` as a cloud fallback.
+
+```python
+# WRONG — crashes locally
+import streamlit as st
+groq_key = st.secrets.get("GROQ_API_KEY")
+
+# RIGHT — .env first, st.secrets as fallback
+groq_key = os.getenv("GROQ_API_KEY")
+if not groq_key:
+    try:
+        import streamlit as st
+        groq_key = st.secrets.get("GROQ_API_KEY")
+    except Exception:
+        pass
 ```
 
 </details>
 
 <details>
-<summary><b>🌐 Phase 2 — Streamlit Web Deployment</b></summary>
+<summary><b>❌ Error 2 — ImportError: cannot import name 'get_llm' from 'model'</b></summary>
 <br/>
 
-Transitioning from CLI to a premium web application was handled by **Antigravity** (agentic AI coding companion). It generated the multi-page Streamlit layout, sidebar navigation, chat UI components, and the analytics dashboard — allowing me to focus purely on the **model connections, DB logic, and making the overall project amazing**.
+**What happened:** `model.py` had `from model import get_llm, MODELS` inside itself — importing from its own file. Python created a circular import loop and crashed.
 
-The deployment to **Streamlit Community Cloud** involved resolving dependency naming (`requirement.txt` → `requirements.txt`), auto-initializing the SQLite schema, and injecting Hugging Face API secrets into the runtime environment.
+**The fix:** Delete that line. `model.py` is the module. It never imports from itself.
+
+</details>
+
+<details>
+<summary><b>❌ Error 3 — KeyError: 'persona' on old chat messages</b></summary>
+<br/>
+
+**What happened:** Added `persona` to the `meta` dict mid-session. Old messages in `st.session_state` didn't have that key. Rendering history crashed with `KeyError`.
+
+**The fix:** Use `.get()` with a fallback everywhere you read from `meta`.
+
+```python
+# WRONG
+meta['persona']
+
+# RIGHT
+meta.get('persona', 'N/A')
+```
+
+</details>
+
+<details>
+<summary><b>❌ Error 4 — torchvision ModuleNotFoundError</b></summary>
+<br/>
+
+**What happened:** Old `requirements.txt` still had HuggingFace dependencies which pulled in `transformers`, which needed `torchvision`. None of these are needed in v1.
+
+**The fix:** Strip `requirements.txt` to only what v1 actually needs:
+
+```
+streamlit
+langchain
+langchain-groq
+pydantic
+python-dotenv
+pandas
+```
 
 </details>
 
@@ -111,13 +190,13 @@ The deployment to **Streamlit Community Cloud** involved resolving dependency na
 git clone https://github.com/Wajid0005/Chatbot-Database.git
 cd Chatbot-Database
 
-# 2. Configure secrets
-echo HUGGINGFACEHUB_API_TOKEN="your_token" > .env
+# 2. Add your Groq API key (free at console.groq.com)
+echo GROQ_API_KEY="your_key_here" > .env
 
-# 3. Install dependencies
+# 3. Install
 pip install -r requirements.txt
 
-# 4. Launch
+# 4. Run
 streamlit run streamlit_app.py
 ```
 
@@ -126,25 +205,34 @@ streamlit run streamlit_app.py
 ## 🗂️ Project Structure
 
 ```
-📦 Chatbot-Database
-├── 📄 streamlit_app.py    # Main Streamlit web application
-├── 📄 model.py            # LangChain + HuggingFace model config
-├── 📄 database.py         # SQLite insert operations
-├── 📄 create_db.py        # Database schema initialization
-├── 📄 token_counter.py    # Tiktoken-based token counter
-├── 📄 view_db.py          # CLI database viewer (pandas)
-├── 📄 app.py              # Original CLI chatbot script
-├── 📄 requirements.txt    # Python dependencies
-└── 📄 .gitignore          # Ignored files (venv, .env, .db)
+📦 Chatbot-Database (v1)
+├── 📄 streamlit_app.py    # UI — chat interface, persona selector, roadmap page
+├── 📄 model.py            # Brain — Groq + Pydantic structured output
+├── 📄 requirements.txt    # Minimal v1 dependencies
+└── 📄 .env                # GROQ_API_KEY (never commit this)
 ```
+
+> v0 had 6 files. v1 has 2. Less code, more functionality.
+
+---
+
+## 🗺️ Version Roadmap
+
+| Version | Status | What it adds |
+|:--------|:-------|:-------------|
+| **v0** — HuggingFace Baseline | ✅ [Live](https://wajid-chatbot-database.streamlit.app/) | Qwen 2.5 7B, terminal only, raw output |
+| **v1** — Groq Speed Engine | 🟢 **You are here** | Groq LPU, personas, structured output, Streamlit UI |
+| **v2** — Memory + Database | 🔜 Coming Soon | Conversation memory, SQLite logging, analytics dashboard |
+| **v3** — RAG | 🔮 Planned | Upload PDFs, ask questions about your documents |
 
 ---
 
 <div align="center">
 
-<!-- Footer Wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F55027,50:1a0a00,100:0d0d0d&height=120&section=footer" width="100%"/>
 
-**Built with ❤️ by Wajid — Learning LangGraph from [CampusX](https://www.youtube.com/@campusx-official)**
+**Built by Wajid Iqbal — Learning LangChain from [CampusX](https://www.youtube.com/@campusx-official)**
+
+*v0 → v1 → v2 → ... shipping in public*
 
 </div>
