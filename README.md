@@ -4,7 +4,7 @@
 
 <br/>
 
-<a href="https://wajid-chatbot-v1.streamlit.app/">
+<a href="https://reeno-chatbot-v1.streamlit.app/">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1000&color=F55027&center=true&vCenter=true&multiline=false&repeat=true&width=600&height=50&lines=%F0%9F%9F%A0+LIVE+NOW+%E2%80%94+Try+REENO+v1+%E2%86%92;Groq+LPU+%7C+Near-instant+responses+%E2%9A%A1;5+Personas+%7C+3+Models+%7C+Pydantic+Output+%F0%9F%A7%A0" alt="Typing SVG" />
 </a>
 
